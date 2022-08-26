@@ -1,0 +1,50 @@
+CloudPanel, sunucularınızı verimli bir şekilde yönetmenize olanak tanıyan açık kaynaklı bir kontrol panelidir. Hosting hizmetleri yönetmek için özel olarak tasarlanmış, yüksek performanslı PHP tabanlı bir kontrol panelidir.
+
+PHP üzerine kuruludur ve Nginx ve MySQL kullanır. Her şeyin beklendiği gibi çalışması için gereken paketleri kurmanın ve yapılandırmanın tüm zor işlerini halleden bir kurulum komut dosyası kullanarak kurulumu kolaydır.
+
+CloudPanel, aşağıdakileri içeren hizmetleri yönetmenize olanak tanıyan, kullanıcı dostu ve kullanımı kolay bir arayüz sağlar:
+
+Veritabanı Yönetimi
+Alan yönetimi
+Kullanıcı yönetimi
+Cron İş yönetimi
+Güvenlik
+
+CloudPanel, Google Cloud, Amazon Web Services ve Digital Ocean gibi büyük bulut hizmetlerini destekler. Bu kılavuzda, CloudPanel’i Debian 10’a nasıl kuracağınızı göstereceğiz.
+
+Gereksinimler
+
+CloudPanel’i yüklemek için gereken gereksinimler şunlardır:
+
+Debian 10 Buster
+Minimum 1 CPU çekirdeği
+En az 2 GB RAM
+Minimum 15 GB sabit disk alanı
+
+Başlayalım…
+
+CloudPanel’i Debian 10 Buster’a Yükleme
+
+Başlamak için Debian 10 sunucunuzda oturum açın ve sisteminizdeki paket listelerini güncelleyin:
+
+$ sudo apt update
+Ek olarak, tüm paketleri en son sürümlerine yükseltebilirsiniz.
+$ sudo apt upgrade -y
+CloudPanel Kontrol Panelinin kurulumu sırasında birkaç paket gerekecektir. Bu nedenle, bunları aşağıdaki gibi yükleyin:
+$ sudo apt install wget curl apt-transport-https
+Gereksinimler yerine getirildikten sonra, curl komutunu kullanarak CloudPanel kurulum komut dosyasını aşağıdaki gibi getirin ve çalıştırın.
+$ curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo bash
+Komut dosyası, Nginx, PHP, MySQL, Percona ve tonlarca başka ek paket ve bağımlılık dahil olmak üzere kontrol panelinin gerektirdiği tüm bileşenleri otomatik olarak kurar ve ayarlar.
+
+Bu, 3-5 dakika arasında herhangi bir yerde sürer. Bu nedenle, paketlerin kurulumu ve kurulumu ilerledikçe sabırlı olun.
+
+Kurulum tamamlandığında, CloudPanel kontrol paneline nasıl erişebileceğinize ilişkin ayrıntıları içeren aşağıdaki bildirimi alacaksınız.
+Debian 10 Buster'da CloudPanel Kurulumu
+CloudPanel kontrol paneline erişmek için tarayıcınızı başlatın ve sunucu-IP adresinize göz atın:
+https://server-ip:8443
+Eğer sunucuya hostname ayarı yaptıysanız hostname ile de giriş yapabilirsiniz
+https://cloud.alicomez.com:8443
+https://cloud.alicomez.com/login
+Erişmeye çalıştığınız web sitesinin potansiyel olarak tehlikeli olduğunu ve sizi siber saldırılara maruz bırakabileceğini bildiren aşağıda belirtildiği gibi bir uyarı alacaksınız. Bu uyarının nedeni, CloudPanel’in henüz bir SSL sertifikası kullanılarak şifrelenmemiş olmasıdır.
+
+Uyarıyı yok sayın ve ‘Gelişmiş’ düğmesine tıklayın ve sunucunuza göz atmaya devam etmeyi seçin.
