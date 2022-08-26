@@ -1,0 +1,182 @@
+CloudPanel Version 2 Yayınlandı
+
+İki yıllık geliştirme sürecinin ardından CloudPanel‘in 2. sürümü yayınlandı, CloudPanel, basitlik, performans ve güvenliğe takıntılı bir şekilde odaklanan bir sunucuyu yapılandırmak ve yönetmek için ücretsiz bir yazılımdır.
+
+CloudPanel Sürüm 2’nin Öne Çıkan Özellikleri
+1. Çoklu Uygulama DesteğiCloudPanel Version 2 YayınlandıCloudPanel Version 2 Yayınlandı
+
+ 
+
+CloudPanel’in 2. Sürümü ile birden çok uygulama türünü destekliyoruz:
+
+PHP Çoklu sürümler (7.1 – 8.1) PHP, dinamik web sayfaları ve uygulamaları oluşturmak için bir sunucu betik dilidir. CloudPanel, web geliştirme için birden çok PHP sürümünü destekler.
+
+Nodejs Çoklu sürümler (12, 14, 16) Node.js, Chrome’un V8 JavaScript motoru üzerine kurulmuş bir Javascript çalışma zamanıdır.
+
+Python (3.09 -3.10) Python, web siteleri oluşturmak, görevleri otomatikleştirmek ve veri analizi yapmak için çok amaçlı bir programlama dilidir.
+
+Statik siteler HTML/CSS/JS. Statik web siteleri, HTML, CSS ve JavaScript dosyalarını bir web tarayıcısına sunmak için sunucu tarafı oluşturmayı kullanır.
+2. Çoklu İşletim Sistemleri
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel’in yeni sürümü, Debian ve Ubuntu işletim sistemlerini desteklemektedir.
+
+Debian 11 (x86 ve ARM64)
+Ubuntu 22.04 LTS (x86 ve ARM64)
+
+Debian 11 Debian, 59000’den fazla yazılım paketiyle popüler bir GNU/Linux dağıtımıdır. Amd64, i386, ARMs, POWER7, vb. gibi çoklu mimarilerle uyumludur.
+
+Ubuntu 22.04 LTS Ubuntu, Debian tabanlı bir Linux dağıtımıdır ve 60.000’den fazla yazılım paketine sahiptir. Ubuntu, AWS, Azure, Google ve IBM Clouds için optimize edilmiş çekirdekler sağlar.
+3. Mimari Destek
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel sürüm 2, x86 ve ARM64 mimarilerini destekler.
+
+ARM çerçevesi, daha iyi fiyat-performans ve minimum kaynak tüketimi sağlayan ultra düşük gecikme süresi ve enerji verimliliği sunmak üzere tasarlanmıştır.
+4. Desteklenen Bulutlar
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel, siteleri istediğiniz bulutta dağıtmanıza olanak tanır. Aşağıdaki Bulutlar desteklenir:
+
+AWS AWS, dünya genelinde 200’den fazla tam özellikli hizmete ve birden çok veri merkezine sahiptir. Geniş çapta benimsenen bir bulut platformuna sahip bir bulut pazar lideridir. CloudPanel, en yeni AWS Graviton 3 işlemciler gibi ARM64 örneklerini destekler.
+
+Google Bulut Platformu. Google Cloud Platform, 150’den fazla bulut bilişim ürünü ve hizmeti sunar. Compute Engine, sanal makineleri ve Google’ın altyapısında büyük bilgi işlem kümelerini çalıştırır.
+
+Microsoft Azure Azure, 200’den fazla ürün ve hizmet içeren bir bulut platformudur. 60 Azure bölgesine yayılmış 200’den fazla veri merkezine sahiptir.
+
+Dijital Okyanus. Digital Ocean, sanal makinelerin ölçeklenebilir bir bulut altyapısı üzerinde hızlı dağıtımına olanak tanır.
+
+Vultr Vultr, yüksek performanslı SSD bulut sunucuları ve güvenilir bir bulut bilişim ortamı sunar. Dünya çapında 23+ veri merkezinden oluşan geniş bir ağ sunar.
+
+Hetzner Hetzner, optimize edilmiş bulut sunucuları, SSD depolama ve küresel ağlar sunar. Veri merkezleri Almanya, Finlandiya ve ABD’de bulunmaktadır.
+5. Desteklenen Teknoloji Yığını
+
+CloudPanel, favori PHP, Node.js ve Python uygulamalarınızı çalıştırmak için hafif ve iyi yapılandırılmış sunucu bileşenleri sunar. Teknoloji yığını, sunucu için en uygun donanım performans oranı ve kullanılabilirlik sunar.
+Servis 	
+Ubuntu 22.04 -CloudPanel Technology StackUbuntu 22.04 LTS
+	
+Debian 11 -CloudPanel Technology StackDebian 11 LTS
+NGINX -CloudPanel Technology Stack NGINX
+NGINX popüler bir web sunucusudur. 	1.21
++ PageSpeed Module 	1.21
++ PageSpeed Module
+MySQL --CloudPanel Technology Stack MySQL
+MySQL, açık kaynaklı bir veritabanı yönetim sistemidir. 	8.0 	5.7, 8.0
+MariaDB -CloudPanel Technology Stack MariaDB.
+MariaDB, MySQL’in açık kaynaklı bir veritabanı çatalıdır. 	10.6 	10.7
+PHP -Cloudpanel technology stack PHP
+PHP, dinamik web uygulamaları oluşturmak için bir betik dilidir. 	7.1-8.1 	7.1-8.1
+Redis -CloudPanel Technology Stack Redis
+Redis, açık kaynaklı, bellek içi bir veri yapısı deposudur. 	6 	6
+ProFTPD -CloudPanel Technology Stack ProFTPD
+ProFTP, ücretsiz ve açık kaynaklı bir FTP sunucusudur. 	1.3 	1.3
+Node.js -CloudPanel v2 Technology stack Node.js
+Node.js, Chrome’un V8 JavaScript Motoru üzerine kurulmuş bir JavaScript çalışma zamanıdır. 	12, 14, 16
+(LTS Versions) 	12, 14, 16
+(LTS Versions)
+Yarn -CloudPanel Technology stack Yarn.
+Yarn, JavaScript için bir paket yönetim sistemidir. 	1.22 	1.22
+Python -CloudPanel version 2 technology stack Python
+Python genel amaçlı bir programlama dilidir. 	3.10 	3.9
+6. Kurulum Sihirbazı
+
+CloudPanel Version 2 Yayınlandı
+
+Kurulum sihirbazı, desteklenen tüm uygulama türlerinin hızlı bir şekilde başlatılmasını sağlar.
+
+Önceden yapılandırılmış vhost şablonlarıyla 30’dan fazla uygulamayı seçebilir ve birkaç tıklamayla ayarları yapılandırabilirsiniz.
+7. WordPress Yükleyici
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel, WordPress’in en son sürümünü yükler ve yapılandırır. Tek tıklamayla WordPress kurulumuna izin verir.
+
+Kurulum tamamlandıktan sonra WordPress siteniz için tüm kimlik bilgilerini alırsınız. Buna site ayrıntıları, veritabanı ve yönetici kimlik bilgileri dahildir.
+8. Dosya Yönetici
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel v2, site dosyalarını düzenlemek için yerleşik bir Dosya Yöneticisi ile birlikte gelir. Dosya Yöneticisi, dosya ve klasörleri yönetmek ve düzenlemek için kullanılan bir grafik arabirimdir. Tek dosyalar, dahil edilen sözdizimi vurgulaması ile kolayca düzenlenir.
+
+Sürükle ve bırak özelliği, dosyaları doğrudan tarayıcınızdan yüklemenizi sağlar.
+
+Dosya Yöneticisinin Özellikleri:
+
+Dosya ve klasör ekleme veya silme
+Sürükle ve bırak dosya yükleme
+Sözdizimi vurgulamalı düzenleyici
+Dosyaları Çıkarma (.zip, .tar, .gz)
+Dosyaları Sıkıştırmak
+İzinleri Değiştirme
+Dosya İndirme
+Dosyaları kopyalayıp yapıştırın
+9. Entegre Güvenlik Duvarı
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel sürüm 2’deki entegre Güvenlik Duvarı, Karmaşık Olmayan Güvenlik Duvarını (UFW) temel alır. UFW, iptables için bir ön uçtur ve özellikle ana bilgisayar tabanlı güvenlik duvarları için çok uygundur. Herhangi bir bağlantı noktasına veya hizmete erişime izin verebilir veya erişimi kısıtlayabilirsiniz.
+10. Site İzolasyonu
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel, gelişmiş sunucu güvenliği için sistem düzeyinde tamamen yalıtılmış siteler sunar.
+
+Aynı sunucu üzerinde farklı site ve uygulamaların barındırılması güvenlik açısından risk oluşturabilir. Bir uygulamanın izole siteler olmadan saldırıya uğraması durumunda, sunucunun tamamı tehlikeye girer.
+11. Kullanıcı Rolleri
+
+CloudPanel Version 2 Yayınlandı
+
+Birden çok kullanıcıyla çalışırken ve aynı sunucuda birkaç site çalıştırırken verimli bir şekilde işbirliği yapın.
+
+CloudPanel, erişimi kısıtlamak ve kullanıcı ayrıcalıklarını yönetmek için çeşitli kullanıcı rolleri sunar. Her rolün aşağıda gösterildiği gibi belirli izinleri vardır:
+
+Yönetici rolüne sahip Yönetici Kullanıcılar, ön uç, arka uç, yönetici alanı ve tüm siteler için tam izinlere sahiptir. Yönetici, yeni Site Yöneticileri ve Kullanıcılar ekleyebilir.
+
+Site Yöneticisi Site Yöneticisi tüm siteleri yönetmek için tam erişime sahiptir ancak yönetici alanına erişimi yoktur.
+
+Kullanıcı Kullanıcı rolünün yalnızca atanan sitelere erişimi vardır. Panelin diğer sitelerine veya alanlarına erişemezler.
+12. Cloudflare Entegrasyonu
+
+CloudPanel Version 2 Yayınlandı
+
+Cloudflare, DDoS azaltma sunan bir ağ güvenliği çözümleri sağlayıcısıdır. CloudPanel sürüm 2 artık Cloudflare entegrasyonunu destekliyor. Hizmetleri almak için trafiğinizi Cloudflare’den yönlendirebilirsiniz:
+
+DDoS
+DNS
+Web Uygulaması Güvenlik Duvarı
+Bot yönetimi
+Yük dengeleme
+API koruması
+13. Otomasyon
+
+CloudPanel Version 2 Yayınlandı
+
+CloudPanel CLI, sunucu yönetimi görevlerini otomatikleştiren komutlar sunar.
+
+CLI komutları şunları içerir:
+
+Let’s Encrypt Sertifikalarını Yükleyin
+Cloudflare’den gelen trafiğe izin ver
+Kullanıcı izinlerini yönet
+Temel Yetkilendirmeyi etkinleştirin veya devre dışı bırakın
+Veritabanını Yönet
+vhost şablonlarını içe aktarın.
+
+Tüm CLI komutlarının tam listesi CloudPanel v2 Docs‘ta mevcuttur.
+
+CloudPanel Sürüm 2, sunucunuzu ve uygulamalarınızı yönetmek için artık ÜCRETSİZ olarak kullanılabilir.
+
+En son sürümümüz, Debian ve Ubuntu işletim sistemleri için ARM ve x86 mimarilerini destekler. Daha iyi fiyat-performans için geliştirilmiştir ve hafif bir teknoloji yığını sunar. Siteleri hızla başlatın ve PHP, NodeJS, Python uygulamaları ve statik siteleri dağıtın.
+
+ 
+
+    Herkesi CloudPanel’in en son 2. sürümünü incelemesi ve kullanabilmesi için SLW Micro Tamamen ücretsiz olarak Cloud Panel altyapısında Tamamen Ücretsiz Hosting veriyor. detayları için bakınız: Free Cloud Hosting
+
+ 
+
+Döküman Cloudpanel sitesinden çeviridir. Kaynak: Cloudpanel Version 2
+
+İyi Çalışmalar.
